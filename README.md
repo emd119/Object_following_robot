@@ -6,7 +6,7 @@ This project uses YOLOv8 (You Only Look Once version 8) for real-time Obejct det
 
 ## Features
 
-Real-time Obejct Detection: Using YOLOv8 to detect people in the camera feed.
+Real-time Obejct Detection: Using YOLOv8 to detect object in the camera feed.
 
 Robot Movement Control: Commands like forward, left, right, and stop are sent via MQTT based on the detected Obejct's position.
 
@@ -78,12 +78,7 @@ Raspberry pi:
   
 ## Acknowledgements
 
- - [Ultrayltics](https://github.com/ultralytics/ultralytics)
+  - [Ultrayltics](https://github.com/ultralytics/ultralytics)
+  - [OpenCV](https://github.com/opencv/opencv)
+  - [paho-mqtt](https://github.com/eclipse-paho/paho.mqtt.python)
  
-
-
-YOLOv8 model (ultralytics library)
-
-MQTT client (paho-mqtt library)
-
-Raspberry Pi GPIO library (RPi.GPIO)
