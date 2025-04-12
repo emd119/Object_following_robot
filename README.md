@@ -1,14 +1,14 @@
 
-# Obejct following robot
+# Object following robot
 
-This project uses YOLOv8 (You Only Look Once version 8) for real-time Obejct detection and controls a robot's movement via MQTT. The system detects the Obejct in the camera feed and sends commands to the robot to move forward, left, right, or stop based on the detected Obejct's position. The robot movement is controlled via an L298N motor driver and a Raspberry Pi.
+This project uses YOLOv8 (You Only Look Once version 8) for real-time object detection and controls a robot's movement via MQTT. The system detects the object in the camera feed and sends commands to the robot to move forward, left, right, or stop based on the detected object's position. The robot movement is controlled via an L298N motor driver and a Raspberry Pi.
 
 
 ## Features
 
-Real-time Obejct Detection: Using YOLOv8 to detect object in the camera feed.
+Real-time object Detection: Using YOLOv8 to detect object in the camera feed.
 
-Robot Movement Control: Commands like forward, left, right, and stop are sent via MQTT based on the detected Obejct's position.
+Robot Movement Control: Commands like forward, left, right, and stop are sent via MQTT based on the detected object's position.
 
 MQTT Communication: MQTT is used to communicate between the computer running YOLOv8 and the Raspberry Pi controlling the motors.
 
@@ -82,3 +82,4 @@ Raspberry pi:
   - [OpenCV](https://github.com/opencv/opencv)
   - [paho-mqtt](https://github.com/eclipse-paho/paho.mqtt.python)
  
+
