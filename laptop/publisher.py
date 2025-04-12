@@ -6,7 +6,7 @@ from ultralytics import YOLO
 model = YOLO("yolov8n.pt")
 
 # MQTT configuration
-broker = "###.###.#.##"
+broker = "###.###.#.##"#Raspberry pi's ip address
 topic = "robot/movement"
 
 # Connect to MQTT broker
