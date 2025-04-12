@@ -17,7 +17,7 @@ pwm_a.start(0)
 pwm_b.start(0)
 
 # MQTT settings
-broker = "###.###.#.##"
+broker = "###.###.#.##"  #Raspberry pi's ip address
 topic = "robot/movement"
 
 # Movement functions
